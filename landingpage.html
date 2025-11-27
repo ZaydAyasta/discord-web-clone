@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discord by Zayd</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/discord-logo.png" alt="Discord Logo" />
+        <span>Discord</span>
+      </div>
+
+      <nav>
+        <div class="nav-item">Descargar</div>
+        <div class="nav-item">Descubrir</div>
+        <div class="nav-item">Soporte técnico</div>
+        <div class="nav-item">Blog</div>
+        <div class="nav-item">Empleos</div>
+        <div class="login-btn">Iniciar sesión</div>
+      </nav>
+    </header>
+
+    <!-- seccion principal-->
+    <section class="main-section">
+      <div class="text-side">
+        <h1>UN CHAT DE GRUPO LLENO DE JUEGOS Y DIVERSIÓN</h1>
+        <p>
+          Únete a comunidades, haz amigos y comparte momentos únicos en Discord.
+          Juega, charla y diviértete, todo en un mismo lugar.
+        </p>
+      </div>
+
+      <div class="right-image">
+        <img src="assets/chat-image.png" alt="Vista del chat de Discord" />
+      </div>
+    </section>
+
+    <!--seccion del video xd-->
+    <section class="main-section">
+      <div class="text-side">
+        <h1>PON UN POCO MÁS DE DIVERSIÓN A LOS CHATS EN GRUPO</h1>
+        <p>
+          Personaliza los emojis, pegatinas, paneles de sonido y mucho más para
+          darle tu toque a los chats de voz, vídeo y texto. Ponte tu propio
+          avatar y un estado personalizado, y edita tu perfil para que aparezca
+          en los chats.
+        </p>
+      </div>
+
+      <div class="class-video">
+        <video autoplay muted loop playsinline>
+          <!-- pa ponerle controles es con <video controls> -->
+          <source src="assets/video.webm" type="video/webm" />
+        </video>
+      </div>
+    </section>
+
+    <!-- aaaaaaaa -->
+    <section class="form-section">
+      <h2>Crear una cuenta</h2>
+      <form>
+        <label for="nombre">Nombres completos:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Ingrese sus nombres"
+          required
+        />
+
+        <label for="correo">Correo electrónico:</label>
+        <input
+          type="email"
+          id="correo"
+          name="correo"
+          placeholder="Ej: zayd@example.com"
+          required
+        />
+
+        <label for="genero">Género:</label>
+        <div class="radio-group">
+          <label><input type="radio" name="genero" /> Masculino</label>
+          <label><input type="radio" name="genero" /> Femenino</label>
+          <label><input type="radio" name="genero" /> Otro</label>
+        </div>
+
+        <label for="pais">País:</label>
+        <select id="pais" name="pais" required>
+          <option value="">Seleccione su país</option>
+          <option value="pe">Perú2</option>
+          <option value="pe">Perú3</option>
+          <option value="pe">Perú4</option>
+          <option value="pe">Perú5</option>
+        </select>
+
+        <label>
+          <input type="checkbox" name="terminos" />
+          Acepto los términos y condiciones
+        </label>
+      </form>
+    </section>
+    <!-- aaaaaaaa -->
+    <section>
+      <footer>
+        <!-- izqrd xd -->
+        <div class="footer-left">
+          <div class="logo-footer">
+            <img src="assets/discord-logo.png" alt="Discord Logo" />
+            <span>Discord</span>
+          </div>
+
+          <p class="footer-title">Redes sociales</p>
+
+          <div class="logo-down">
+            <img src="assets/facebook.svg" alt="Facebook" />
+            <img src="assets/twitter.svg" alt="Twitter" />
+            <img src="assets/insatgram.svg" alt="Instagram" />
+            <img src="assets/youtube.svg" alt="YouTube" />
+          </div>
+        </div>
+
+        <!-- derecha -->
+        <div class="footer-right-group">
+
+          <div class="footer-right">
+            <p class="footer-title">Políticas</p>
+            <a href="assets/documento.pdf">Ley de protección de datos</a>
+          </div>
+
+          <div class="footer-col">
+            <p class="footer-title">Servicios</p>
+            <a href="#">Soporte</a>
+            <a href="#">Centro de ayuda</a>
+            <a href="#">Actualizaciones</a>
+          </div>
+
+          <div class="footer-col">
+            <p class="footer-title">Compañía</p>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Trabaja con nosotros</a>
+            <a href="#">Contacto</a>
+          </div>
+
+        </div>
+      </footer>
+
+
+    </section>
+  </body>
+</html>
