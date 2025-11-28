@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Discord by Zayd</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="menu_toggle.css" />
   </head>
 
   <body>
@@ -14,7 +15,13 @@
         <span>Discord</span>
       </div>
 
-      <nav>
+	 <!-- BOTÓN HAMBURGUESA -->
+	   <button class="menu-toggle" aria-label="Abrir menú">
+	    &#9776;
+	    <!-- Ícono de hamburguesa -->
+	   </button>
+
+      <nav class="Menu-Horizontal">
         <div class="nav-item">Descargar</div>
         <div class="nav-item">Descubrir</div>
         <div class="nav-item">Soporte técnico</div>
@@ -150,5 +157,6 @@
 
 
     </section>
+    <script src="menu_toggle.js"></script>
   </body>
 </html>

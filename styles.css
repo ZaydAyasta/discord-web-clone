@@ -168,3 +168,127 @@ a:hover {
 .logo-footer span {
   font-size: 1.25rem;
 }
+
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+
+  header {
+    padding: 1.25rem 2rem;
+  }
+
+  nav {
+    gap: 1rem;
+  }
+
+  .main-section {
+    padding: 4rem 2rem;
+    gap: 3rem;
+  }
+
+  .text-side h1 {
+    font-size: 2.2rem;
+  }
+
+  .text-side p {
+    font-size: 1.1rem;
+  }
+
+  .class-video video {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .footer-right-group {
+    gap: 2rem;
+  }
+}
+
+/* celulares chiquitos */
+@media (max-width: 768px) {
+
+  nav {
+    display: none; 
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  .main-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 3rem 1.5rem;
+  }
+
+  .text-side {
+    transform: translateX(0);
+    max-width: 100%;
+  }
+
+  .text-side h1 {
+    font-size: 1.9rem;
+  }
+
+  .right-image img,
+  .class-video video {
+    width: 90%;
+    height: auto;
+  }
+
+  .class-video {
+    transform: translateX(0);
+  }
+
+  .form-section {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .radio-group {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 2rem 1.5rem;
+  }
+
+  .footer-right-group {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+/* celar */
+@media (max-width: 480px) {
+
+  .text-side h1 {
+    font-size: 1.6rem;
+  }
+
+  .text-side p {
+    font-size: 1rem;
+  }
+
+  .logo img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .logo-footer img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .logo-down img {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+}
