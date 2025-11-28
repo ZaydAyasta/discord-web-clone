@@ -236,8 +236,11 @@ a:hover {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+
+  .class-video{
     margin: 0 0 0 2.8rem;
-    padding: 0rem 0rem 0rem 6rem;
+    padding: 0rem 0rem 0rem 7rem;
   }
 
   .class-video {
