@@ -22,13 +22,26 @@
 	   </button>
 
       <nav class="Menu-Horizontal">
-        <div class="nav-item">Descargar</div>
-        <div class="nav-item">Descubrir</div>
-        <div class="nav-item">Soporte técnico</div>
-        <div class="nav-item">Blog</div>
-        <div class="nav-item">Empleos</div>
-        <div class="login-btn">Iniciar sesión</div>
+        <ul class="nav-list">
+          <li><a href="#">Descargar</a></li>
+
+          <li class="has-submenu">
+            <a href="#" class="submenu-toggle">Descubrir ▼</a>
+            <ul class="Menu-vertical">
+              <li><a href="#">Tendencias</a></li>
+              <li><a href="#">Nuevos servidores</a></li>
+              <li><a href="#">Creados para ti</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">Soporte técnico</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Empleos</a></li>
+          <li><a class="nav-login" href="#">Iniciar sesión</a></li>
+        </ul>
+
       </nav>
+
     </header>
 
     <!-- seccion principal-->
